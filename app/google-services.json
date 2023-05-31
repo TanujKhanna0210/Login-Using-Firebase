@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "181035303036",
+    "project_id": "loginusingfirebase-b3204",
+    "storage_bucket": "loginusingfirebase-b3204.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181035303036:android:b6f5731c573e7b103ac9f9",
+        "android_client_info": {
+          "package_name": "com.example.loginusingfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkz3nYrBaEDtNwxUpo-R18-h5Q9gQ7Sh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

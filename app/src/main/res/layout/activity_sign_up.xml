@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/emailLayout"
-        style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+        style="@style/LoginTextOuterFieldStyle"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="300dp"
         app:boxStrokeColor="@color/darkBlue"
@@ -22,6 +22,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailEt"
+            style="@style/LoginTextInnerFieldStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Type your Email"
@@ -33,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/passwordLayout"
-        style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+        style="@style/LoginTextOuterFieldStyle"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="24dp"
         app:boxStrokeColor="@color/darkBlue"
@@ -45,6 +46,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passwordEt"
+            style="@style/LoginTextInnerFieldStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Type your Password"
@@ -56,7 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/confirmPasswordLayout"
-        style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+        style="@style/LoginTextOuterFieldStyle"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="24dp"
         app:boxStrokeColor="@color/darkBlue"
@@ -68,6 +70,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/confirmPasswordEt"
+            style="@style/LoginTextInnerFieldStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Type your Email"
